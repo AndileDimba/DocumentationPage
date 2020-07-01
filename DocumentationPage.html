@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="DocumentationPage.css">
+</head>
+<body>
+<div class="main-body">
+  <nav class="nav-bar" id="navbar">
+  	<header>Python Documentation</header>
+  	<a href="#Introduction" class="nav-link">Introduction</a>
+  	<a href="#Python" class="nav-link">Python</a>
+  	<a href="#Variables" class="nav-link">Variables</a>
+  	<a href="#Scope" class="nav-link">Scope</a>
+  	<a href="#Functions" class="nav-link">Functions</a>
+  </nav>
+
+ <main id="main-doc">
+ <header id="header"><h1>My Doc Page</h1>
+  <img id="header-img" src="http://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg" alt="Logo"></img></header>
+
+  <section class="main-section" id="Introduction">
+  	<header><h1>Introduction</h1></header>
+  	<p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.</p>
+  	<p>Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</p>
+  </section>
+  <section class="main-section" id="Python">
+  	<header><h1>Python</h1></header>
+  	<p>Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk. Comparisons to C++, Common Lisp and Scheme can also be enlightening. In this section I will briefly compare Python to each of these languages.</p>
+  	<p>These comparisons concentrate on language issues only. In practice, the choice of a programming language is often dictated by other real-world constraints such as cost, availability, training, and prior investment, or even emotional attachment. Since these aspects are highly variable, it seems a waste of time to consider them much for this comparison.</p>
+
+  	<code>
+  		print("Hello World") // This is how you get output
+  	</code>
+  	<code>
+  		name = [1,2,3,4,5,6,7] // This is how you declare lists
+  	</code>
+
+    <ul>
+    	<li>Variables</li>
+    	<li>Functions</li>
+    	<li>Control Flow</li>
+    	<li>Strings</li>
+    	<li>Dictionaries</li>
+    </ul>
+
+  </section>
+  <section class="main-section" id="Variables">
+  	<header><h1>Variables</h1></header>
+  	<p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
+  	<p>Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared in a document, you can refer to this variable from an iframe as parent.phoneNumber.</p>
+
+  	<code>
+  		name_Surname = "Mlamuli Dimba" // Declaring a variable
+  	</code>
+  </section>
+  <section class="main-section" id="Scope">
+  	<header><h1>Scope</h1></header>
+  	<p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document.</p>
+  	<p>When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
+
+    <code>
+    	Variable = "easy like this" // This is a variable
+    </code>
+
+  </section>
+  <section class="main-section" id="Functions">
+  	<header><h1>Functions</h1></header>
+  	<p>Functions store instruction to reusable code.</p>
+  	<p>A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.</p>
+
+    <code>funcname(): //declaring a function<br>
+       print("Hello") // local variable<br>
+    
+      funcname() // this is how you call a function
+    </code>
+  </section>
+
+</main>
+</div>
+</body>
+</html>
